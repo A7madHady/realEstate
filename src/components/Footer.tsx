@@ -63,7 +63,7 @@ const Footer = () => {
      
       <div className="border-t border-gray-500 "></div>
 
-      <p className="text-neutral-400 hover:text-neutral-100 text-center  sm:pb-10 pt-5 mb-15">Copyright © 2025 Ahmed Hady. All Rights Reserved</p>
+      <p className="text-neutral-400 hover:text-neutral-100 text-center  sm:pb-10 pt-5 mb-15 pb-8">Copyright © 2025 Ahmed Hady. All Rights Reserved</p>
     </div>
   );
 };

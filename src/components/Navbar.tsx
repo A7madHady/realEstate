@@ -58,12 +58,15 @@ const Navbar = () => {
       
 
 {mobileDrawerOpen && (
-  <div className="mt-1 bg-black rounded-md lg:hidden">
+  <div className="mt-1  bg-black rounded-md lg:hidden">
     <ul className="flex flex-col items-center">
       {NAV_LINKS.map((item, index) => (
         <li key={index} className="py-6">
-          <a className="text-white hover:text-neutral-500" href="item.url">
+          <a className="text-white hover:text-neutral-500"
+           href={item.url} 
+           onClick={() => SetMobileDrawerOpen(false)}>
           {item.title}
+          
           </a>
         </li>
       ))}
