@@ -75,3 +75,15 @@
   background-size: cover;
   background-position:30%;
 }
+
+@media (max-width: 768px) {
+ 
+  h1 {
+    font-size: 1.5rem; /* Smaller font size for mobile */
+  }
+
+  .headder {
+    color: aliceblue;
+    background-color: white;
+  }
+}

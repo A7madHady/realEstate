@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <div className="bg-black text-white">
-      <div className="container flex">
+      <div className="container sm:flex">
         <div className="pt-12 pl-20 mr-10">
           <h5>RealEs</h5>
           <p className="lg:w-4/6 text-sm pt-7">
@@ -25,9 +25,9 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className=" gap-4 my-10  grid grid-cols-3 w-full">
-          <div className="">
-            <h3 className="mb-5">BUY</h3>
+        <div className=" gap-4 my-10  grid grid-cols-1 w-full sm:grid-cols-3 ml-16">
+          <div className="pb-8">
+            <h3 className="mb-5 font-bold">BUY</h3>
             <p className="flex flex-col gap-4">
               <span className="hover:text-neutral-500 cursor-pointer ">Search Properties</span>
               <span className="hover:text-neutral-500 cursor-pointer ">Mortgage Calculator</span>
@@ -36,8 +36,8 @@ const Footer = () => {
               <span className="hover:text-neutral-500 cursor-pointer ">FAQs for Buyers</span>
             </p>
           </div>
-          <div className="">
-            <h3 className="mb-5">SELL</h3>
+          <div className="pb-8">
+            <h3 className="mb-5 font-bold ">SELL</h3>
 
             <p className="flex flex-col gap-4">
               <span className="hover:text-neutral-500 cursor-pointer ">List Your Property</span>
@@ -48,7 +48,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="">
-            <h3 className="mb-5">RENT</h3>
+            <h3 className="mb-5 font-bold ">RENT</h3>
 
             <p className="flex flex-col gap-4">
               <span className="hover:text-neutral-500 cursor-pointer "> Rental Guide</span>
@@ -60,10 +60,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <hr className="text-neutral-400"/> */}
+     
       <div className="border-t border-gray-500 "></div>
 
-      <p className="text-neutral-400 hover:text-neutral-100 text-center  pb-10 pt-5">Copyright © 2025 Ahmed Hady. All Rights Reserved</p>
+      <p className="text-neutral-400 hover:text-neutral-100 text-center  sm:pb-10 pt-5 mb-15">Copyright © 2025 Ahmed Hady. All Rights Reserved</p>
     </div>
   );
 };

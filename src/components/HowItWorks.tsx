@@ -5,7 +5,7 @@ import React from 'react'
 const HowItWorks = () => {
   return (
     <div className='container mx-auto my-10 border-b pd-10' id='How'>
-      <h2 className='text-center text-3xl tracking-tighter sm:text-4xl lg:text-5xl'>
+      <h2 className=' text-center text-3xl tracking-tighter sm:text-4xl lg:text-5xl'>
         {HOW_IT_WORKS.title}
       </h2>
       <p className='mx-auto my-10 max-w-4xl text-center text-neutral-800'>

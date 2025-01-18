@@ -8,8 +8,8 @@ const Services = () => {
         Services
       </h2>
 
-      <div>
-        <div className="grid grid-cols-2 sm:items-center">
+      <div className="">
+        <div className="grid grid-cols-1 sm:items-center sm:w-full sm:grid-cols-2">
           <div>
             <Image
               className="rounded-xl object-cover"
@@ -20,7 +20,7 @@ const Services = () => {
             />
           </div>
 
-          <div className="" >
+          <div className="pl-9 mt-4" >
             <h2 className="text-5xl lg:text-6xl">
                 WE are
                 <br />
